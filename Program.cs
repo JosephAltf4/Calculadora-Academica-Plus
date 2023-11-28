@@ -22,7 +22,7 @@ namespace proyecto_final2._0
             if (calificacion >= 7.0)
             {
                 Console.WriteLine("¡Felicidades! Su rendimiento académico es excelente.");
-                Console.WriteLine("Recursos adicionales sugeridos: Talleres de ampliación de conocimientos, participación en proyectos de investigación.");
+                Console.WriteLine("Recursos adicionales sugeridos: Talleres de ampliación de conocimientos, participación en proyectos de investigación o asesorías grupales para reforzar conocimientos.");
             }
             else if (calificacion >= 5.0 && calificacion < 7.0)
             {
@@ -32,7 +32,7 @@ namespace proyecto_final2._0
             else
             {
                 Console.WriteLine("Necesita esforzarse más. Busque ayuda adicional si es necesario, ¡usted puede con eso y más!.");
-                Console.WriteLine("Recursos adicionales sugeridos: Clases de apoyo, revisión de conceptos básicos, apoyo con maestros especializados en las materias que flaquea.");
+                Console.WriteLine("Recursos adicionales sugeridos: Clases de apoyo, revisión de conceptos básicos, apoyo con maestros especializados en las materias que flaquea o Recursos adicionales sugeridos: Clases de apoyo, revisión de conceptos básicos, apoyo con maestros especializados en las materias que flaquea, también considere la importancia de cuidar su salud emocional, no se presione, diviertase tambien y haga ejercicio :D.");
             }
 
             switch ((int)calificacion)
